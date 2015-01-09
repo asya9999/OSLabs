@@ -1,0 +1,12 @@
+Recovery:
+Through preemption:it takes a resource from other process. It DEPENDS on nature of the resource and the process 
+Through rollback: it checkpoints a process periodically. The process can be restart, if it was deadlocked. It consumes time and space
+Through killing process: it kills one of the processes in the deadlock cycle. But it is crude, because there may be problems, depending on processes being returnable 
+
+Prevention:
+prevent Deadlock by eliminating any of 4 condition (Mutual exclusion, Hold and wait, No preemption, Circular wait)
+It is at least possible, holds the goal of preventing deadlocks
+
+Avoidance:
+disallow deadlock by trying to determine if allowing a particular resource allocation will cause deadlock 
+It can often be impossible practically, because we need to know information in advance
