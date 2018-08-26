@@ -1,0 +1,8 @@
+    5  mkdir ~/week1
+    6  cd week1
+    7  pwd
+    8  cd
+    9  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1
+   10  cd
+   11  cd week1
+   12  history > ex2.txt
