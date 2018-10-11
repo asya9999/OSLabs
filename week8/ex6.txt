@@ -1,0 +1,9 @@
+16-bit virtual addresses
+Pages are 8 KB
+
+Solution:
+Each page is 8KB, 8*2^10 = 8192 bits
+The page offset is 13 bits
+16 bits - 13 bits = 3 bits
+2^3 = 8  - entries in page table
+Answer: 8
