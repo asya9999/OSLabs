@@ -1,0 +1,7 @@
+chmod ugo-x _ex3.txt
+chmod uo+rwx _ex3.txt
+chmod g=u _ex3.txt
+
+660 - owner and group can rw, nothing for others
+775 - owner, group - rwx; others - rx 
+777 - each user can rwx
