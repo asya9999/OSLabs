@@ -1,0 +1,14 @@
+1. Output:
+"Hello
+Hello
+
+"
+"Hello" is in buffer before fork(). New process has the same buffer. Thus, "Hello" is printed twice
+
+2.Output:
+"Hello
+
+
+
+"
+After "Hello\n" the buffer is empty. New process has empty buffer. Thus, "Hello" is printed only one time
